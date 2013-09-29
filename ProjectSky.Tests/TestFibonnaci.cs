@@ -15,7 +15,7 @@ namespace ProjectSky.Tests
         [TestCase(3, 2)]
         [TestCase(4, 3)]
         [Test]
-        public void TestFibonnaci(int fibonnaci, long expected)
+        public void TestFibonnaciSeries(int fibonnaci, long expected)
         {
             Fibonnaci fib = new Fibonnaci();
             Assert.That(fib.Calculate(0), Is.EqualTo(0));
