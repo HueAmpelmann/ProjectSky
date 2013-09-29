@@ -18,7 +18,7 @@ namespace ProjectSky.Tests
         public void TestFibonnaciSeries(int fibonnaci, long expected)
         {
             Fibonnaci fib = new Fibonnaci();
-            Assert.That(fib.Calculate(0), Is.EqualTo(0));
+            Assert.That(fib.Calculate(fibonnaci), Is.EqualTo(expected));
         }
     }
 }
