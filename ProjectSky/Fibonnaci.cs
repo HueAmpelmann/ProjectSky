@@ -11,7 +11,7 @@ namespace ProjectSky
 
         public long Calculate(int n)
         {
-            if (n < 1)
+            if (n <= 1)
                 return n;
 
             long result;
